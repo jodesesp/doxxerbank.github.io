@@ -11,20 +11,24 @@ function validate() {
   
     }
     if (x == "kjddfg342") {//Comedy
-        document.getElementById("prub").style.display = ''; // show
+        document.getElementById("prub1").style.display = ''; // show
         alert("bienvenido " + "comedy good");
   
     }
     if (x == "ha4nbx98") {//Ruben
-        document.getElementById("prub").style.display = ''; // show
+        document.getElementById("prub2").style.display = ''; // show
         alert("bienvenido " + "Rubén");
   
     }
     if (x == "yo2808") {//yo
-        document.getElementById("prub").style.display = ''; // show
+        document.getElementById("prub3").style.display = ''; // show
         alert("bienvenido " + "Hola Admin");
   
       }
 }
 
 document.getElementById("prub").style.display = 'none'; // hide
+document.getElementById("prub1").style.display = 'none'; // hide
+document.getElementById("prub2").style.display = 'none'; // hide
+document.getElementById("prub3").style.display = 'none'; // hide
+
